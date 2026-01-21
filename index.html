@@ -1,5 +1,10 @@
+<!-- index.html is the typical starting page for websites. 
+ When you deploy this using GitHub pages, this will be the landing page of your site. -->
+
 <!doctype html>
 <html lang="en">
+  <!-- The head of the document defines all the 'behind the scenes' stuff 
+   which our web browser needs to know in order to show us the page. -->
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,10 +13,12 @@
       name="description"
       content="This is the home page of my Portfolio Webpage!"
     />
-    <link rel="stylesheet" href="style/sky.css" />
+    <link rel="stylesheet" href="style/themes/sky.css" />
     <link rel="stylesheet" href="style/global.css" />
     <script src="scripts/get-year.js"></script>
   </head>
+
+  <!-- Body contains the actual content of the page. -->
   <body>
     <!-- The header is our navigation ribbon. -->
     <header>
@@ -22,7 +29,7 @@
         <a href="https://github.com" target="_blank">github</a>
       </nav>
     </header>
-    <!-- Main contains the content of the page. -->
+    <!-- Main contains the unique content of the page. -->
     <main>
       <h1>Your Name</h1>
       <img
@@ -31,110 +38,108 @@
         style="width: 10rem"
         class="centered-content"
       />
-      <div class="colored-content-block">
+      <section class="colored-content-block">
+        <h2>About me</h2>
+        <details>
+          <summary>
+            I am a student at the University of Pittsburgh-Johnstown, and
+            tonight I'm creating my own webpage!
+          </summary>
+          <p>
+            I'm being shown how to create a simple webpage at the Computer
+            Science club's webpage workshop!
+          </p>
+        </details>
         <section>
-          <h2>About me</h2>
-          <details>
-            <summary>
-              I am a student at the University of Pittsburgh-Johnstown, and
-              tonight I'm creating my own webpage!
-            </summary>
-            <p>
-              I'm being shown how to create a simple webpage at the Computer
-              Science club's webpage workshop!
-            </p>
-          </details>
-          <section>
-            <h3>My Hobbies</h3>
-            <ul>
-              <li>Quacking</li>
-              <li>Swimming</li>
-              <li>Flying</li>
-            </ul>
-          </section>
-          <section>
-            <h3>New section</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
-              corrupti libero dicta, nihil facere, quos repudiandae delectus
-              amet sint reprehenderit ea! Alias consequuntur provident numquam
-              laboriosam explicabo voluptates, cupiditate voluptatibus! Lorem
-              ipsum dolor sit amet, consectetur adipisicing elit. Saepe earum
-              quam cupiditate? Commodi culpa incidunt nihil illo sapiente
-              eligendi debitis dolorem voluptatibus tenetur optio dicta,
-              quisquam, consequatur ad dolorum voluptatum!Lorem ipsum dolor sit
-              amet consectetur adipisicing elit. Iste corrupti libero dicta,
-              nihil facere, quos repudiandae delectus amet sint reprehenderit
-              ea! Alias consequuntur provident numquam laboriosam explicabo
-              voluptates, cupiditate voluptatibus! Lorem ipsum dolor sit amet,
-              consectetur adipisicing elit. Saepe earum quam cupiditate? Commodi
-              culpa incidunt nihil illo sapiente eligendi debitis dolorem
-              voluptatibus tenetur optio dicta, quisquam, consequatur ad dolorum
-              voluptatum!Lorem ipsum dolor sit amet consectetur adipisicing
-              elit. Iste corrupti libero dicta, nihil facere, quos repudiandae
-              delectus amet sint reprehenderit ea! Alias consequuntur provident
-              numquam laboriosam explicabo voluptates, cupiditate voluptatibus!
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe
-              earum quam cupiditate? Commodi culpa incidunt nihil illo sapiente
-              eligendi debitis dolorem voluptatibus tenetur optio dicta,
-              quisquam, consequatur ad dolorum voluptatum!Lorem ipsum dolor sit
-              amet consectetur adipisicing elit. Iste corrupti libero dicta,
-              nihil facere, quos repudiandae delectus amet sint reprehenderit
-              ea! Alias consequuntur provident numquam laboriosam explicabo
-              voluptates, cupiditate voluptatibus! Lorem ipsum dolor sit amet,
-              consectetur adipisicing elit. Saepe earum quam cupiditate? Commodi
-              culpa incidunt nihil illo sapiente eligendi debitis dolorem
-              voluptatibus tenetur optio dicta, quisquam, consequatur ad dolorum
-              voluptatum!Lorem ipsum dolor sit amet consectetur adipisicing
-              elit. Iste corrupti libero dicta, nihil facere, quos repudiandae
-              delectus amet sint reprehenderit ea! Alias consequuntur provident
-              numquam laboriosam explicabo voluptates, cupiditate voluptatibus!
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe
-              earum quam cupiditate? Commodi culpa incidunt nihil illo sapiente
-              eligendi debitis dolorem voluptatibus tenetur optio dicta,
-              quisquam, consequatur ad dolorum voluptatum!Lorem ipsum dolor sit
-              amet consectetur adipisicing elit. Iste corrupti libero dicta,
-              nihil facere, quos repudiandae delectus amet sint reprehenderit
-              ea! Alias consequuntur provident numquam laboriosam explicabo
-              voluptates, cupiditate voluptatibus! Lorem ipsum dolor sit amet,
-              consectetur adipisicing elit. Saepe earum quam cupiditate? Commodi
-              culpa incidunt nihil illo sapiente eligendi debitis dolorem
-              voluptatibus tenetur optio dicta, quisquam, consequatur ad dolorum
-              voluptatum!Lorem ipsum dolor sit amet consectetur adipisicing
-              elit. Iste corrupti libero dicta, nihil facere, quos repudiandae
-              delectus amet sint reprehenderit ea! Alias consequuntur provident
-              numquam laboriosam explicabo voluptates, cupiditate voluptatibus!
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe
-              earum quam cupiditate? Commodi culpa incidunt nihil illo sapiente
-              eligendi debitis dolorem voluptatibus tenetur optio dicta,
-              quisquam, consequatur ad dolorum voluptatum!Lorem ipsum dolor sit
-              amet consectetur adipisicing elit. Iste corrupti libero dicta,
-              nihil facere, quos repudiandae delectus amet sint reprehenderit
-              ea! Alias consequuntur provident numquam laboriosam explicabo
-              voluptates, cupiditate voluptatibus! Lorem ipsum dolor sit amet,
-              consectetur adipisicing elit. Saepe earum quam cupiditate? Commodi
-              culpa incidunt nihil illo sapiente eligendi debitis dolorem
-              voluptatibus tenetur optio dicta, quisquam, consequatur ad dolorum
-              voluptatum!Lorem ipsum dolor sit amet consectetur adipisicing
-              elit. Iste corrupti libero dicta, nihil facere, quos repudiandae
-              delectus amet sint reprehenderit ea! Alias consequuntur provident
-              numquam laboriosam explicabo voluptates, cupiditate voluptatibus!
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe
-              earum quam cupiditate? Commodi culpa incidunt nihil illo sapiente
-              eligendi debitis dolorem voluptatibus tenetur optio dicta,
-              quisquam, consequatur ad dolorum voluptatum! lorem
-            </p>
-          </section>
-          <section>
-            <h3><a href="pages/vacation.html">My Vacation</a></h3>
-            <p>And now here's an ordered list.</p>
-            <ol>
-              <li>Here's the first item</li>
-              <li>Here's a second item</li>
-            </ol>
-          </section>
+          <h3>My Hobbies</h3>
+          <ul>
+            <li>Quacking</li>
+            <li>Swimming</li>
+            <li>Flying</li>
+          </ul>
         </section>
-      </div>
+        <section>
+          <h3>New section</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
+            corrupti libero dicta, nihil facere, quos repudiandae delectus amet
+            sint reprehenderit ea! Alias consequuntur provident numquam
+            laboriosam explicabo voluptates, cupiditate voluptatibus! Lorem
+            ipsum dolor sit amet, consectetur adipisicing elit. Saepe earum quam
+            cupiditate? Commodi culpa incidunt nihil illo sapiente eligendi
+            debitis dolorem voluptatibus tenetur optio dicta, quisquam,
+            consequatur ad dolorum voluptatum!Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Iste corrupti libero dicta, nihil
+            facere, quos repudiandae delectus amet sint reprehenderit ea! Alias
+            consequuntur provident numquam laboriosam explicabo voluptates,
+            cupiditate voluptatibus! Lorem ipsum dolor sit amet, consectetur
+            adipisicing elit. Saepe earum quam cupiditate? Commodi culpa
+            incidunt nihil illo sapiente eligendi debitis dolorem voluptatibus
+            tenetur optio dicta, quisquam, consequatur ad dolorum
+            voluptatum!Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Iste corrupti libero dicta, nihil facere, quos repudiandae delectus
+            amet sint reprehenderit ea! Alias consequuntur provident numquam
+            laboriosam explicabo voluptates, cupiditate voluptatibus! Lorem
+            ipsum dolor sit amet, consectetur adipisicing elit. Saepe earum quam
+            cupiditate? Commodi culpa incidunt nihil illo sapiente eligendi
+            debitis dolorem voluptatibus tenetur optio dicta, quisquam,
+            consequatur ad dolorum voluptatum!Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Iste corrupti libero dicta, nihil
+            facere, quos repudiandae delectus amet sint reprehenderit ea! Alias
+            consequuntur provident numquam laboriosam explicabo voluptates,
+            cupiditate voluptatibus! Lorem ipsum dolor sit amet, consectetur
+            adipisicing elit. Saepe earum quam cupiditate? Commodi culpa
+            incidunt nihil illo sapiente eligendi debitis dolorem voluptatibus
+            tenetur optio dicta, quisquam, consequatur ad dolorum
+            voluptatum!Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Iste corrupti libero dicta, nihil facere, quos repudiandae delectus
+            amet sint reprehenderit ea! Alias consequuntur provident numquam
+            laboriosam explicabo voluptates, cupiditate voluptatibus! Lorem
+            ipsum dolor sit amet, consectetur adipisicing elit. Saepe earum quam
+            cupiditate? Commodi culpa incidunt nihil illo sapiente eligendi
+            debitis dolorem voluptatibus tenetur optio dicta, quisquam,
+            consequatur ad dolorum voluptatum!Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Iste corrupti libero dicta, nihil
+            facere, quos repudiandae delectus amet sint reprehenderit ea! Alias
+            consequuntur provident numquam laboriosam explicabo voluptates,
+            cupiditate voluptatibus! Lorem ipsum dolor sit amet, consectetur
+            adipisicing elit. Saepe earum quam cupiditate? Commodi culpa
+            incidunt nihil illo sapiente eligendi debitis dolorem voluptatibus
+            tenetur optio dicta, quisquam, consequatur ad dolorum
+            voluptatum!Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Iste corrupti libero dicta, nihil facere, quos repudiandae delectus
+            amet sint reprehenderit ea! Alias consequuntur provident numquam
+            laboriosam explicabo voluptates, cupiditate voluptatibus! Lorem
+            ipsum dolor sit amet, consectetur adipisicing elit. Saepe earum quam
+            cupiditate? Commodi culpa incidunt nihil illo sapiente eligendi
+            debitis dolorem voluptatibus tenetur optio dicta, quisquam,
+            consequatur ad dolorum voluptatum!Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Iste corrupti libero dicta, nihil
+            facere, quos repudiandae delectus amet sint reprehenderit ea! Alias
+            consequuntur provident numquam laboriosam explicabo voluptates,
+            cupiditate voluptatibus! Lorem ipsum dolor sit amet, consectetur
+            adipisicing elit. Saepe earum quam cupiditate? Commodi culpa
+            incidunt nihil illo sapiente eligendi debitis dolorem voluptatibus
+            tenetur optio dicta, quisquam, consequatur ad dolorum
+            voluptatum!Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Iste corrupti libero dicta, nihil facere, quos repudiandae delectus
+            amet sint reprehenderit ea! Alias consequuntur provident numquam
+            laboriosam explicabo voluptates, cupiditate voluptatibus! Lorem
+            ipsum dolor sit amet, consectetur adipisicing elit. Saepe earum quam
+            cupiditate? Commodi culpa incidunt nihil illo sapiente eligendi
+            debitis dolorem voluptatibus tenetur optio dicta, quisquam,
+            consequatur ad dolorum voluptatum! lorem
+          </p>
+        </section>
+        <section>
+          <h3><a href="pages/vacation.html">My Vacation</a></h3>
+          <p>And now here's an ordered list.</p>
+          <ol>
+            <li>Here's the first item</li>
+            <li>Here's a second item</li>
+          </ol>
+        </section>
+      </section>
     </main>
     <!-- The footer contains a simple copyright logo with our name and the year. -->
     <footer>
